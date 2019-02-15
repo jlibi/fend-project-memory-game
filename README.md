@@ -1,4 +1,10 @@
 # Memory Game Project
+ https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css
+ https://fonts.googleapis.com/css?family=Coda
+
+
+ Matching game is a game that require players to match similar cards, participants need to find a match for 8 pairs of images by using their memory.
+
 
 ## Table of Contents
 
