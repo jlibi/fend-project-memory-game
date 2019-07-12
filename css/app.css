@@ -84,7 +84,7 @@ h1 {
 /*
  * Styles for the Score Panel
  */
-
+okl[y]
 .score-panel {
     text-align: left;
     width: 345px;
@@ -104,6 +104,66 @@ h1 {
 }
 
 .score-panel .restart {
+  padding-left: 50px;
     float: right;
     cursor: pointer;
+}
+
+
+.medal_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.hide {
+  display: none;
+}
+
+.medal_body {
+  position: relative;
+  top: 50%;
+  left: 50%;
+
+  width: 400px;
+  background: #ffffff;
+  transform: translate(-50%, -70%);
+}
+
+.medal_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+  border-bottom: 2px solid gray;
+  background: blue;
+  color: white;
+}
+
+.medal_close {
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: red;
+}
+
+.medal_stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid gray;
+}
+
+.medal_buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.medal_buttons {
+  width: 60pm;
+  height: 30pm;
 }
